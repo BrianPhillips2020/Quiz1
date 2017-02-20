@@ -22,6 +22,8 @@ public class FootballRaterQ1 {
 
 		System.out.print("Interceptions: ");
 		int interceptions = input.nextInt();
+		
+		input.close();
 
 		double a = ((completions / attempts) - 0.3) * 5;
 		double b = ((yards / attempts) - 3) * 0.25;
